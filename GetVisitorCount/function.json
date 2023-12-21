@@ -15,13 +15,6 @@
       "type": "http",
       "direction": "out",
       "name": "$return"
-    },
-    {
-      "name": "userCount",
-      "type": "table",
-      "tableName": "resume",
-      "connection": "AzureWebJobsStorage",
-      "direction": "in"
     }
   ]
 }
